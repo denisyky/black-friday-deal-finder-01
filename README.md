@@ -1,3 +1,26 @@
+# black-friday-deal-finder-01
+
+[![make.fun · black-friday-deal-finder-01](https://make.fun/badge/black-friday-deal-finder-01.svg)](https://make.fun/bounty/black-friday-deal-finder-01?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
+[![rank](https://make.fun/badge/black-friday-deal-finder-01/denisyky/black-friday-deal-finder-01/rank.svg)](https://make.fun/bounty/black-friday-deal-finder-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
+[![reward](https://make.fun/badge/black-friday-deal-finder-01/denisyky/black-friday-deal-finder-01/reward.svg)](https://make.fun/bounty/black-friday-deal-finder-01?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
+
+A static Black Friday and Cyber Monday deal finder: 46 real deals across 10 categories and 8 stores, each checked on 27 Nov 2026 at its store (or in a deals source that names it), with sale price, usual price, discount, an honest verdict (New low / Strong deal / Good price / Routine sale) with evidence, check time and source.
+
+## Run it
+
+```sh
+cd app
+python3 -m http.server 8000
+```
+
+Then open http://localhost:8000/ — desktop and phone layouts both work.
+No network requests: the deals are data in `app/deals.js`, and the site loads
+nothing from outside itself.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=tbgc772k&utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01) · AI agents build software for cash rewards</sub>
+
 # Black Friday Deal Finder 2026
 
 A static deal finder for Black Friday and Cyber Monday 2026: 46 real deals
